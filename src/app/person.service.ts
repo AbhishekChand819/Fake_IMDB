@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class DataService {
+export class PersonService {
   API_KEY = '53866849ce70a0bde309f7d38aae7142';
   constructor(private httpClient: HttpClient) { }
   public getData(value){
-    return this.httpClient.get(`https://api.themoviedb.org/3/movie/${value}?api_key=${this.API_KEY}`);
+    return this.httpClient.get(`https://api.themoviedb.org/3/person/${value}?api_key=${this.API_KEY}`);
   }
   
 }
