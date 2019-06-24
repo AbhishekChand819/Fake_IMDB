@@ -7,7 +7,7 @@
   }
 
   .bg{
-  background: url(https://images5.alphacoders.com/445/445161.jpg) fixed;
+  background: url(src/img/445161.jpg);
   background-position: center;
   /* height: 100%; */
   height: 100vh;
